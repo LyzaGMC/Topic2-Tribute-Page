@@ -1,0 +1,43 @@
+body {
+    margin-top: 5px;
+    font-family: 'Lato','Georgia','Times New Roman',serif;
+  }
+  
+  p {
+      color: black;
+      padding-left: 20%;
+      font-size: 15px;
+      font-weight: 600;
+      font-style: italic;
+    }
+  
+  
+  h1{
+    font-size: 75px;
+
+}
+
+.thumbnail {
+    padding-left: 25%;
+}
+.quote1 {
+    display: flexbox;
+    justify-content: center;
+    padding-right: 40%;
+    text-align: center;
+}
+
+li {
+    padding-bottom: 15px;
+}
+
+a{
+    padding-left: 0.5%;
+    text-decoration: none;
+    color:rgba(39, 131, 236, 0.842);
+}
+img {
+    display: block;
+max-width: 100%; /* Ensures the image resizes relative to its parent element */
+height: auto; /* Maintains the aspect ratio of the image */
+}
